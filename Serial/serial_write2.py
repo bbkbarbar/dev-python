@@ -18,5 +18,5 @@ counter=0
 
 while (counter < 100):
    ser.write('Write counter: %d \n'%(counter))
-   time.sleep(10)
+   time.sleep(100)
    counter += 1
